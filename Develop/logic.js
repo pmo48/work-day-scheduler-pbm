@@ -1,6 +1,7 @@
 //Wait to render until page is ready
 $(document).ready(function() {
 
+//initialize page with stored notes
 //Display current day at top of calendar
 var now = moment().format('LL');
 
@@ -19,6 +20,16 @@ $("#currentDay").text(now);
   //if time block is where time is now, color the time block red
 
 //Function to save answers
+
+$(".btnSubmit9").click(function() {
+  var note9 = $(".note9").value(".note9");
+  console.log(note9);
+})
+
+// function init() {
+//     var storedNotes = JSON.parse(localStorage.getItem("Hourly Notes"));
+
+// }
 
 //Function to display answers
 

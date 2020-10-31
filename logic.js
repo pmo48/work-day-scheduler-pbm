@@ -14,7 +14,6 @@ var note4 = document.querySelector('.note4');
 //Run function to initialize time and get local storage text upon document load
 
 initializeTime();
-// colorTimeblock();
 getText();
 
 //initialize time and color timeblocks
@@ -25,7 +24,7 @@ function initializeTime() {
   //display current time
   $("#currentDay").text(now);
   
-  //for each form-control class that's found, run the function of to parse the integer out of the div ID, create a variable of current time, and if timeblock time is < or =, add or remove classes accordingly. 
+  //for each form-control class that's found, run the function to parse the integer out of the div ID, create a variable of current time, and if timeblock time is < or =, add or remove classes accordingly. 
   
   $(".form-control").each(function () {
         var timeBlocktime = parseInt($(this).attr("id"));

@@ -1,6 +1,6 @@
 # code-quiz-pbm
 
-This coding quiz is intended to test javascript knowledge for noobs. 
+This work day scheduler is intended to provide a basic workday scheduler that stores notes in localstorage and updates the timeblocks based on time of day.
 
 ![workday scheduler screenshot](./Assets/images/wds.png)
 
@@ -13,7 +13,7 @@ This coding quiz is intended to test javascript knowledge for noobs.
 
 - Giving 100% on homework
 - Displaying jquery logic
-- Beating my own high scores
+- Keeping workdays organized
 
 # Credits
 
